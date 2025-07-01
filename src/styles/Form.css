@@ -1,0 +1,18 @@
+
+#formulaire{
+    background: rgba(255, 255, 255, 0.623);
+    margin-top: 30vh;
+    padding: 2.5em;
+    width: 30vw;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2em;
+    max-width: 500px;
+}
+button[type=submit]{
+    width: 25%;
+    align-self: flex-end;
+    margin: 2em 0 0 0;
+}

@@ -1,0 +1,59 @@
+#ul-anim{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+}
+#box-profil{
+    margin-top: 20vh;
+    background: rgba(255, 255, 255, 0.671);
+    display: flex;
+    justify-self: center;
+    padding: 1.4em;
+    border-radius: 1em;
+    flex-direction: column;
+    max-height: 500px;
+    max-width: 1000px;
+}
+h2{
+    background: rgba(51, 255, 0, 0.151);
+    padding: 0.6em 0  0.6em 0;
+    text-align: center;
+    border: solid 4px black;
+    border-radius: 1em;
+}
+#profil{
+    display: flex;
+    flex-direction: row;
+    
+}
+img{
+    max-height: 70%;
+    width: 40%;
+    border-radius: 1em;
+    object-fit: cover;
+}
+p{
+    margin: 0.6em;
+}
+.anim-caract{
+    display: flex;
+    flex-direction: column;
+}
+.alimentation{
+    align-content: center;
+    justify-self: center;
+    width: 1.6em;
+    height: 1.6em;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+}
+.anim-taille{
+    margin-top: 0.6em;
+    max-width: 1.6em;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+}
