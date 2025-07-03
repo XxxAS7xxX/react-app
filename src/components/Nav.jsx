@@ -54,9 +54,9 @@ export default function Nav(){
                     onClose={handleClose}
                     slots={{ transition: Fade }}
                 >
-                    <MenuItem id='fade-item' onClick={handleClose}>Profile</MenuItem>
-                    <MenuItem id='fade-item' onClick={handleClose}>My account</MenuItem>
-                    <MenuItem id='fade-item' onClick={handleClose}>Logout</MenuItem>
+                    <MenuItem id='fade-item' onClick={handleClose}>Home</MenuItem>
+                    <MenuItem id='fade-item' onClick={handleClose}>About</MenuItem>
+                    <MenuItem id='fade-item' onClick={handleClose}>Contact</MenuItem>
                 </Menu>
             </div>
             

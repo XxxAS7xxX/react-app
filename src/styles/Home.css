@@ -70,3 +70,10 @@ p{
     border-radius: 8px;
     background: rgba(0, 0, 0, 0.5);
 }
+#btn-fiche{
+    padding: auto;
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+    border-radius: 0.6em;
+}

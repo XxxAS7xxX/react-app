@@ -1,0 +1,14 @@
+#box-fiche{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+#box-fiche>h1{
+    border: solid 1px black;
+}
+#box-fiche>img{
+    width: 80vw;
+}
