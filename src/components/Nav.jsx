@@ -63,7 +63,7 @@ export default function Nav(){
             <ThemeProvider theme={theme}>
                 <ul>
                     <Link to={"/"}><Button variant='text'><HomeIcon></HomeIcon>Home</Button></Link>
-                    <Button variant='text'><Person4Icon></Person4Icon>About</Button>
+                    <Link to={"/About"}><Button variant='text'><Person4Icon></Person4Icon>About</Button></Link>
                     <Link to={"/Contact"}><Button variant='text'><MailIcon></MailIcon>Contact</Button></Link>
                 </ul>
             </ThemeProvider>

@@ -1,0 +1,18 @@
+#box-about{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+#box-about>h1{
+    border: solid 1px black;
+}
+#box-about>img{
+    border-radius: 1em;
+    border: solid 1px black;
+}
+#box-about>p{
+    border: solid 1px black;
+}
